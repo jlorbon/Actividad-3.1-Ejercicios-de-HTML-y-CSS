@@ -1,0 +1,89 @@
+body {
+    background-color: #F7F0CC;
+}
+
+form {
+    background-color: #D4D9E3;
+    align-content: center;
+    font-size: 14px;
+    color: #6b121b;
+    border: 1px dotted #b8bfcb;
+    border-radius: 7px;
+    padding: 14px;
+}
+
+fieldset {
+    border: 1px dotted gray;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+legend {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding-top: 3pc;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    outline: none;
+}
+
+input[type=text] {
+    padding: unset;
+    height: 20px;
+    width: 300px;
+}
+
+input[type=email] {
+    padding: unset;
+    height: 20px;
+    width: 230px;
+}
+
+input[type=submit] {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+    background-color: #2a477a;
+
+}
+
+textarea {
+    width: 450px;
+    height: 50px;
+    max-width: 493px;
+    min-width: 300px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+input:required {
+    border-color: #4aa248;
+    
+}
+
+input:invalid {
+    border-color: #ff7f7f;
+}

@@ -1,0 +1,58 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #333;
+    font-size: 20px;
+}
+
+h2 {
+    color: #666;
+    font-size: 16px;
+}
+
+img{
+    height: 200px;
+    width: 400px;
+}
+
+th {
+    background-color: #666;
+    size: 16px;
+}
+
+.cabezatabla {
+    color: white;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#pietabla {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: #ccc
+}
+
+a{
+    color: blue;
+    size: 16px;
+}
+
+p, li, td{
+    color: #000;
+    size: 16px;
+}
+
+caption {
+    color: #000;
+    size: 14px;
+}
+
+td {
+    background-color: #fff;
+}

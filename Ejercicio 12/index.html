@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 12 relación html</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="enviar-datos" method="post">
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="Su nombre" required><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" name="email" id="email" placeholder="nombre@servidos.com" required>
+            </fieldset>
+            <fieldset>
+                <legend>Datos del proyecto</legend>
+                <label for="mensaje">Breve descripción del proyecto.</label><br>
+                <textarea name="mensaje" id="mensaje"></textarea><br>
+                <label for="estado-proyecto">
+                    Estado actual del proyecto:<br>
+                    <input type="radio" name="estado-proyecto" value="En planteamiento" checked>En planteamiento
+                    <input type="radio" name="estado-proyecto" value="En planificación">En planificación
+                    <input type="radio" name="estado-proyecto" value="En ejecución">En ejecución
+                    <input type="radio" name="estado-proyecto" value="Ya finalizado">Ya finalizado
+                </label><br>
+                <label for="nombre">Presupuesto aproximado (en €):</label>
+                <input type="text" name="presupuesto" id="presupuesto" placeholder="1000"><br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>

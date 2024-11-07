@@ -1,0 +1,30 @@
+h1 {
+    color: red;
+}
+h2 {
+    text-align: center;;
+}
+
+div {
+    background-color: gray;
+}
+
+li {
+    margin-left: 15px;
+}
+
+#tit-tra1 {
+    color: blue;
+}
+
+#tit-tra2 {
+    color: green;
+}
+
+#dat-per {
+    border-style: solid;
+}
+
+#dat-est {
+    border-style: double;
+}
