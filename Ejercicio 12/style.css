@@ -77,6 +77,17 @@ textarea {
     padding-right: 3px;
     padding-bottom: 3px;
     padding-left: 10px;
+    margin-bottom: 16px;
+}
+
+#presupuesto {
+    width: 95px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#presupuesto::placeholder {
+    color: #2a477a;
 }
 
 input:required {
