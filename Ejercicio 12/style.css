@@ -1,5 +1,6 @@
 body {
     background-color: #F7F0CC;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 form {
@@ -59,8 +60,14 @@ input[type=submit] {
     padding-right: 30px;
     color: white;
     background-color: #2a477a;
-
+    font-size: 14px;
 }
+
+input[type=submit]:hover {
+    color: #5376B2;
+}
+
+
 
 textarea {
     width: 450px;
@@ -81,20 +88,24 @@ textarea {
 }
 
 #presupuesto {
-    width: 95px;
+    width: 90px;
     margin-top: 16px;
     margin-bottom: 16px;
+    padding-left: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 16px;
 }
 
 #presupuesto::placeholder {
     color: #2a477a;
 }
 
-input:required {
+:required {
     border-color: #4aa248;
     
 }
 
-input:invalid {
+:invalid {
     border-color: #ff7f7f;
 }
